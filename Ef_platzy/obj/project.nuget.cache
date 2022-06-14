@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hbaODkQhyR/ngevIkuR+qeQfQ+F00FECNyuMN3ayIQaQli8XsPErw4cEBAl8TLCsrQqTyohbXJoEdMvRADfEPA==",
+  "dgSpecHash": "WVxkv52Z9kWOBUrJVu3yHZLzFoVQcbiLABDdxQ/aO3nxkHAHHTVAPgGIRUISzrGv45npGFpKwuqaw27I7gmI7A==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpaces\\Ef_platzy\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj",
+  "projectFilePath": "C:\\WorkSpaces\\git\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mvasquez\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\mvasquez\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpaces\\Ef_platzy\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj": {}
+    "C:\\WorkSpaces\\git\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpaces\\Ef_platzy\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj": {
+    "C:\\WorkSpaces\\git\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\Ef_platzy\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj",
+        "projectUniqueName": "C:\\WorkSpaces\\git\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj",
         "projectName": "Ef_platzy",
-        "projectPath": "C:\\WorkSpaces\\Ef_platzy\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj",
+        "projectPath": "C:\\WorkSpaces\\git\\Ef_platzy\\Ef_platzy\\Ef_platzy.csproj",
         "packagesPath": "C:\\Users\\mvasquez\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\Ef_platzy\\Ef_platzy\\Ef_platzy\\obj\\",
+        "outputPath": "C:\\WorkSpaces\\git\\Ef_platzy\\Ef_platzy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
