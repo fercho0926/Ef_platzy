@@ -3,9 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+;
 
 //builder.Services.AddDbContext<Ef_PlatzyContex>(p => p.UseInMemoryDatabase("TaskDB"));
-builder.Services.AddSqlServer<Ef_PlatzyContex>("");
+builder.Services.AddDbContext<Ef_PlatzyContex>(p =>
+    p.UseSqlServer(connectionString));
+;
 
 var app = builder.Build();
 
