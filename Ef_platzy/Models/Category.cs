@@ -9,5 +9,6 @@
         public string Name { get; set; }
         public string Description { get; set; }
         public virtual ICollection<Task> Task { get; set; }
+        public int Effort { get; set; }
     }
 }

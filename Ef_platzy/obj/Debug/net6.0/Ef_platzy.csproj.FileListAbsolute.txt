@@ -53,3 +53,5 @@ C:\WorkSpaces\git\Ef_platzy\Ef_platzy\obj\Debug\net6.0\refint\Ef_platzy.dll
 C:\WorkSpaces\git\Ef_platzy\Ef_platzy\obj\Debug\net6.0\Ef_platzy.pdb
 C:\WorkSpaces\git\Ef_platzy\Ef_platzy\obj\Debug\net6.0\Ef_platzy.genruntimeconfig.cache
 C:\WorkSpaces\git\Ef_platzy\Ef_platzy\obj\Debug\net6.0\ref\Ef_platzy.dll
+C:\WorkSpaces\git\Ef_platzy\Ef_platzy\bin\Debug\net6.0\Humanizer.dll
+C:\WorkSpaces\git\Ef_platzy\Ef_platzy\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
