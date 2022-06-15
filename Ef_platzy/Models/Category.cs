@@ -1,4 +1,6 @@
-﻿namespace Ef_platzy.Models
+﻿using System.Text.Json.Serialization;
+
+namespace Ef_platzy.Models
 {
     public class Category
     {
@@ -8,7 +10,7 @@
         //[Required, MaxLength(150)]
         public string Name { get; set; }
         public string Description { get; set; }
-        public virtual ICollection<Task> Task { get; set; }
+        [JsonIgnore] public virtual ICollection<Task> Task { get; set; }
         public int Effort { get; set; }
     }
 }

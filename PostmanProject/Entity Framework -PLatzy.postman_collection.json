@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "7f652726-ac53-4846-934c-b4f4c06c9bb8",
+		"name": "Entity Framework -PLatzy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15988999"
+	},
+	"item": [
+		{
+			"name": "dbConection",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7288/dbConection",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7288",
+					"path": [
+						"dbConection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/task -Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7288/api/task",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7288",
+					"path": [
+						"api",
+						"task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/task - Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryId\": \"d25eb6c9-b078-4771-a1a1-ccc9a7cd0755\",\r\n    \"title\": \"Personal -Added by Postman\",\r\n    \"description\": null,\r\n    \"priority\": 2\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7288/api/task",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7288",
+					"path": [
+						"api",
+						"task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/task - Put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryId\": \"d25eb6c9-b078-4771-a1a1-ccc9a7cd0755\",\r\n    \"title\": \"UPDATED\",\r\n    \"description\": \"info updated\",\r\n    \"priority\": 2,\r\n    \"dateCreated\": \"2022-06-14T23:17:26.0048121\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7288/api/task/57b67926-b7fe-4a04-84d7-ec800dfdf7a5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7288",
+					"path": [
+						"api",
+						"task",
+						"57b67926-b7fe-4a04-84d7-ec800dfdf7a5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/task - Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7288/api/task/c902b9ba-11cd-4186-9ae3-7af99daf9a3d",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7288",
+					"path": [
+						"api",
+						"task",
+						"c902b9ba-11cd-4186-9ae3-7af99daf9a3d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
